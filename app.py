@@ -5,10 +5,10 @@ import pandas as pd
 st.set_page_config(page_title="Local Food Wastage System", layout="wide")
 
 # Load Data
-providers = pd.read_csv("data/providers_data.csv")
-receivers = pd.read_csv("data/receivers_data.csv")
-food = pd.read_csv("data/food_listings_data.csv")
-claims = pd.read_csv("data/claims_data.csv")
+providers = pd.read_csv("providers_data.csv")
+receivers = pd.read_csv("receivers_data.csv")
+food = pd.read_csv("food_listings_data.csv")
+claims = pd.read_csv("claims_data.csv")
 
 # Title
 st.title("🍽️ Local Food Wastage Management System")
